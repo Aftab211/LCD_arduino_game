@@ -262,7 +262,7 @@ void loop(){
     drawHero((blink) ? HERO_POSITION_OFF : heroPos, terrainUpper, terrainLower, distance >> 3);
     if (blink) {
       lcd.setCursor(0,0);
-      lcd.print("Push start to begin");
+      lcd.print("Press Start!");
       pushbuzzer(500);   // play sound right after collision
       delay(10000);        
     }
